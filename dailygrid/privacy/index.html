@@ -1,0 +1,96 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Daily Grid – Privacy policy</title>
+<style>
+  :root { --bg: #f2f4f1; --fg: #172022; --muted: #5b6866; --line: #c5cec9; --ink: #0e6b63; --card: #ffffff; }
+  @media (prefers-color-scheme: dark) {
+    :root { --bg: #0f1413; --fg: #e3eae7; --muted: #97a4a1; --line: #34403d; --ink: #63cfc1; --card: #171d1c; }
+  }
+  * { box-sizing: border-box; }
+  body { margin: 0; background: var(--bg); color: var(--fg); font: 16px/1.6 system-ui, -apple-system, "Segoe UI", Roboto, "Noto Sans", sans-serif; }
+  main { max-width: 720px; margin: 0 auto; padding: 32px 16px 64px; }
+  h1 { font-size: 28px; line-height: 1.25; margin: 0 0 4px; }
+  h2 { font-size: 19px; margin: 32px 0 8px; }
+  p, li { color: var(--fg); }
+  .meta { color: var(--muted); margin: 0 0 24px; }
+  .card { background: var(--card); border: 1px solid var(--line); border-radius: 14px; padding: 16px 20px; }
+  table { width: 100%; border-collapse: collapse; font-size: 15px; }
+  th, td { text-align: left; vertical-align: top; padding: 10px 8px; border-top: 1px solid var(--line); }
+  th { color: var(--muted); font-weight: 600; }
+  .wrap { overflow-x: auto; }
+  a { color: var(--ink); }
+</style>
+</head>
+<body>
+<main>
+<h1>Daily Grid – Privacy policy</h1>
+<p class="meta">Effective 13 November 2026 · App: Daily Grid (com.udb.dailygrid) · Developer: Ushnish Dey Bhowmik · Contact: <a href="mailto:neilbhowmik05@gmail.com">neilbhowmik05@gmail.com</a></p>
+<div class="card">
+  <p><strong>In short:</strong> Your puzzles, progress and settings stay on your phone. The app is free and shows ads from Google AdMob. It uses Google Firebase to count how features are used, to report crashes and to switch some ad placements on or off remotely. These Google services collect some device data, described below. There is no account, and we never sell data.</p>
+</div>
+
+<h2>1. Your data in the app</h2>
+<ul>
+  <li>Puzzles are made and solved on your phone. Your moves, solve times, hints used, streak, statistics and settings are stored only on your phone.</li>
+  <li>The app has no account and no server of its own. Nothing you enter in a puzzle is sent anywhere.</li>
+  <li>If your phone's Android backup is on, Android may include this progress in your own Google backup, so it can come back on a new phone. That backup is controlled by your phone's settings, not by us.</li>
+  <li>“Share result” opens Android's share sheet with a short text you can send yourself (your time, hints, streak and a link to the app). The app sends nothing on its own.</li>
+</ul>
+
+<h2>2. Permissions</h2>
+<ul>
+  <li><strong>Notifications</strong>: only for the optional daily reminder, which is off until you turn it on. Android asks you first, and you can turn it off any time in Settings.</li>
+  <li><strong>Internet and network state</strong>: for ads (and to tell you when you're offline), and for Firebase. Puzzles work without the internet.</li>
+  <li><strong>Advertising ID and ad services</strong> (Android's Privacy Sandbox): used by Google AdMob for ads, as described in section 3.</li>
+  <li><strong>Wake lock and foreground service</strong>: used by Android's WorkManager to run the daily reminder on time.</li>
+  <li><strong>Install referrer</strong>: tells Firebase how the app was installed (for example from a shared link), to count where players come from.</li>
+</ul>
+
+<h2>3. Ads (Google AdMob)</h2>
+<p>The app shows ads from Google AdMob: optional ads you choose to watch for an extra (3 hints, keeping a streak after a missed day, or opening an older daily puzzle); a short ad after some solved puzzles, only when the button says “short ad” first; an ad when you come back to the app after a while (never over a puzzle); and a banner at the bottom of the Archive and Stats screens. To show and measure ads, Google may collect:</p>
+<ul>
+  <li>your device's advertising ID, and Android Privacy Sandbox signals (Topics and ad measurement) where your phone supports them;</li>
+  <li>your IP address, from which an approximate location (country or city) is inferred;</li>
+  <li>device and app information, and how you interact with ads.</li>
+</ul>
+<p>This is used for showing ads, ad measurement, frequency capping and preventing fraud. If you are in the European Economic Area, the UK, Switzerland or a region with similar laws, the app asks for your consent with Google's consent form before loading any ad, and you can change your choice any time in <strong>Settings › Privacy choices for ads</strong>. You can also reset or delete your advertising ID in your phone's settings. Learn more in <a href="https://policies.google.com/technologies/partner-sites">How Google uses information from sites or apps that use its services</a> and the <a href="https://policies.google.com/privacy">Google Privacy Policy</a>.</p>
+
+<h2>4. Usage, crash reports and settings (Google Firebase)</h2>
+<ul>
+  <li><strong>Firebase Analytics</strong> records app events such as a puzzle started or solved (type, size, time and hints used), a hint used, an ad offered or watched, and a result shared. It also collects an app-instance ID, device information (model, Android version, language) and an approximate location from your IP address. Events never contain your name, contacts or anything you type. Google keeps this data for 2 months.</li>
+  <li><strong>Firebase Crashlytics</strong> sends a report when the app crashes: the technical details of the crash, device information and an installation ID. Google keeps crash reports for 90 days.</li>
+  <li><strong>Firebase Remote Config</strong> downloads two on/off settings for ad placements. It uses an installation ID and basic device information to do so.</li>
+</ul>
+<p>We use this only to understand which features are used, to fix problems and to tune ads. See <a href="https://firebase.google.com/support/privacy">Privacy and security in Firebase</a>.</p>
+
+<h2>5. What is collected, in one table</h2>
+<div class="wrap"><table>
+  <tr><th>Data</th><th>Collected by</th><th>Why</th></tr>
+  <tr><td>Puzzle progress, solve history, streak, hints, settings</td><td>Nobody. It stays on your phone</td><td>–</td></tr>
+  <tr><td>Advertising ID, app-instance and installation IDs</td><td>Google (AdMob, Firebase)</td><td>Ads, analytics, crash reports, fraud prevention</td></tr>
+  <tr><td>Approximate location (from IP address)</td><td>Google (AdMob, Firebase)</td><td>Ads, analytics</td></tr>
+  <tr><td>App interactions (events, ad interactions)</td><td>Google (AdMob, Firebase)</td><td>Ads, analytics</td></tr>
+  <tr><td>Crash logs and diagnostics</td><td>Google (Crashlytics, AdMob)</td><td>Fixing problems, ads</td></tr>
+</table></div>
+<p>All of it is sent over encrypted connections (HTTPS). We do not sell personal data, and we do not share it with anyone other than these Google services.</p>
+
+<h2>6. Children</h2>
+<p>The app is meant for adults who enjoy logic puzzles and is not directed at children under 13. We do not knowingly collect data from children under 13.</p>
+
+<h2>7. Your choices</h2>
+<ul>
+  <li>Change your ad consent in Settings › Privacy choices for ads (where offered).</li>
+  <li>Reset or delete your advertising ID in your phone's Google or privacy settings.</li>
+  <li>Turn the daily reminder off in Settings, or block the app's notifications in Android.</li>
+  <li>Uninstall the app to delete everything it keeps on your phone. A copy may remain in your own Android backup until that backup is replaced.</li>
+  <li>Questions or a data request: email <a href="mailto:neilbhowmik05@gmail.com">neilbhowmik05@gmail.com</a>. Because there is no account, include the date you used the app so we can help.</li>
+</ul>
+
+<h2>8. Changes to this policy</h2>
+<p>If this policy changes, we will update this page and its effective date. Important changes will also be noted in the app's release notes.</p>
+</main>
+</body>
+</html>
